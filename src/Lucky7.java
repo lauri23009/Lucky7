@@ -22,6 +22,9 @@ public class Lucky7 {
 		randomNumber3 = random.nextInt(11);	
 			System.out.println("Numero 3 = " + randomNumber3);
 			
+			
+		
+			
 		
 		
 		
