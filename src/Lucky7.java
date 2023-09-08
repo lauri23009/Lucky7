@@ -12,6 +12,8 @@ public class Lucky7 {
 		int randomNumber2;
 		int randomNumber3;
 		
+		//Aloitus saldo
+		System.out.println("Saldo: 5€ \r\n");
 		
 		//Arvo 3 numeroa väliltä 1-10
 		randomNumber1 = random.nextInt(11);	
@@ -24,11 +26,11 @@ public class Lucky7 {
 			System.out.println("Numero 3 = " + randomNumber3);
 			
 			
+			
 			if (randomNumber1 == 7 || randomNumber2 == 7 || randomNumber3 == 7){
 				System.out.println("Voitit!");
 			}
-			else 
-			{
+			else {
 				System.out.println("Hävisit!");
 			}
 			
