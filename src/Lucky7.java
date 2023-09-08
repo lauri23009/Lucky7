@@ -13,6 +13,7 @@ public class Lucky7 {
 		int randomNumber3;
 		
 		
+		//Arvo 3 numeroa väliltä 1-10
 		randomNumber1 = random.nextInt(11);	
 			System.out.println("Numero 1 = " + randomNumber1);
 			
@@ -21,6 +22,15 @@ public class Lucky7 {
 			
 		randomNumber3 = random.nextInt(11);	
 			System.out.println("Numero 3 = " + randomNumber3);
+			
+			
+			if (randomNumber1 == 7 || randomNumber2 == 7 || randomNumber3 == 7){
+				System.out.println("Voitit!");
+			}
+			else 
+			{
+				System.out.println("Hävisit!");
+			}
 			
 			
 		
