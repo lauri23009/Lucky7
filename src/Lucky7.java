@@ -21,8 +21,6 @@ public class Lucky7 {
 		String pelaa;
 		
 		
-		
-		
 		//Arvo 3 numeroa väliltä 1-10
 		randomNumber1 = random.nextInt(11);		
 		randomNumber2 = random.nextInt(11);	
@@ -50,6 +48,9 @@ public class Lucky7 {
 			System.out.println("Numero 1 = " + randomNumber1);
 			System.out.println("Numero 2 = " + randomNumber2);
 			System.out.println("Numero 3 = " + randomNumber3);
+		
+			
+			
 			
 			//Lopputulokset "Voitit!, Hävisit!"
 			if (randomNumber1 == 7 || randomNumber2 == 7 || randomNumber3 == 7){
@@ -59,6 +60,10 @@ public class Lucky7 {
 				System.out.println("Hävisit! \r\n");
 			}
 			}
+			else {
+				System.out.println("Error!");
+			}
+			
 		
 			}while (pelaa.equals("Kyllä"));
 		
